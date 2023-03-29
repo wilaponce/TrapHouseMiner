@@ -1,0 +1,2 @@
+rootProject.name = "Bitcoin Miner v3.0.0"
+include ':app'

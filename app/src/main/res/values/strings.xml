@@ -1,0 +1,174 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">THM</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_main">Trap House Miner</string>
+    <string name="toolbar_login">Welcome Back!</string>
+    <string name="toolbar_signup">Sign up</string>
+    <string name="toolbar_profile">My Profile</string>
+    <string name="toolbar_start">Start Earn</string>
+    <string name="toolbar_feedback">Feedback</string>
+    <string name="toolbar_about">About</string>
+    <string name="toolbar_payment">Payment</string>
+    <string name="toolbar_howItWorks">How is Works</string>
+    <string name="toolbar_proof">Payments Proof</string>
+    <string name="toolbar_games">Games Categories</string>
+    <string name="toolbar_math_quiz">Math Quiz</string>
+    <string name="toolbar_math_true_false">True or False</string>
+    <string name="toolbar_result">Result</string>
+    <string name="toolbar_achievements">My Achievements</string>
+
+    <!-- Sign up -->
+    <string name="log_in">Log in</string>
+    <string name="your_name">Your Name</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_your_confirm_pass">Enter Your Confirm Password</string>
+    <string name="password_is_not_match">Your Password not match</string>
+    <string name="signup_agree">By Sign up you agree to the Privacy Policy, Terms and Conditions.</string>
+    <string name="already_have_account">Already Have Account?</string>
+
+    <!-- Login Activity -->
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="new_user">New user?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="invalid_email_address">Invalid email address</string>
+
+    <!-- Forgot Password Activity -->
+    <string name="send">Send</string>
+    <string name="status_success">We have sent link to your email address</string>
+    <string name="status_not_exists">This Email Address is not Exist!</string>
+    <string name="forgot_pass_Error">Error! Try Again.</string>
+
+    <!-- Main Activity -->
+    <string name="Main_Welcome">Welcome, </string>
+    <string name="Main_Mocoins">Your Points</string>
+    <string name="Main_Zero">0</string>
+    <string name="Main_Start">Start Earn</string>
+    <string name="Main_MakeMoney">to make Bitcion</string>
+    <string name="Main_VideoAds">Watch Video</string>
+    <string name="Main_subVideoAds">to earn</string>
+    <string name="Main_Achievements">Achievements</string>
+    <string name="Main_subAchievements">See your game achievements</string>
+    <string name="Main_Proof">Payments Proof</string>
+    <string name="Main_subProof">Proof of payment to users</string>
+    <string name="Main_Payments">Payment</string>
+    <string name="Main_subPayments">send payment request</string>
+    <string name="Main_Feedback">Feedback</string>
+    <string name="Main_subFeedback">tell us your opinion</string>
+    <string name="Main_Share">Share with Friend</string>
+    <string name="Main_subShare">share is care</string>
+    <string name="Main_Rate">Rate the App</string>
+    <string name="Main_subRate">to support us :)</string>
+    <string name="Main_HowItWorks">How it Works</string>
+    <string name="Main_subHowItWorks">FAQ</string>
+    <string name="Main_About">About App</string>
+    <string name="Main_AppInfo">info about app</string>
+
+    <!-- Profile -->
+    <string name="proof_username">Name</string>
+    <string name="proof_email">Email</string>
+    <string name="proof_amount">Points</string>
+
+    <!-- Profile -->
+    <string name="profile_myProfile">MY PROFILE</string>
+    <string name="profile_others">OTHERS</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_contact">Contact Us</string>
+    <string name="profile_report">Report a problem</string>
+
+    <!-- About -->
+    <string name="about_app_name">Trap House Miner (THM)</string>
+    <string name="about_website">Our Website</string>
+    <string name="about_terms">Terms and Conditions</string>
+    <string name="about_Company">Rep It Homie</string>
+    <string name="about_Inc">Trap House Bitcoin Miner Inc.</string>
+    <string name="about_Specialist">Software Engineer - Wilton Ponce</string>
+    <string name="about_location">San Marcos, CA</string>
+
+    <!-- Feedback -->
+    <string name="feedback_title">Title*</string>
+    <string name="feedback_message">Your Feedback Message*</string>
+
+    <!-- Splash -->
+    <string name="splash_try_again">Try Again</string>
+    <string name="splash_no_internet">No Internet Connection</string>
+
+    <!-- Payment -->
+    <string name="payment_alert">* You need to have account in Coinbase to use it in cashout.</string>
+    <string name="payment_mas">Please enter the email address that you would like to use for Coinbase:</string>
+    <string name="payment_req">You need to have at least 10000 points to cash out.</string>
+    <string name="payment_request">Payment Request</string>
+    <string name="payment_convert">10000 Points = 0.000001 Bitcoin</string>
+
+    <!-- Help page -->
+    <string name="Faq_title_1">How do I earn Bitcoin?</string>
+    <string name="Faq_text_1">Simply all you have to do is watch the advertising websites for a short time and then the points will be added.</string>
+
+    <string name="Faq_title_2">What is a Points?</string>
+    <string name="Faq_text_2">The points you earn are converted into Bitcoin upon withdrawal.</string>
+    <string name="Faq_title_3">When can I withdraw?</string>
+    <string name="Faq_text_3">You can withdraw to your Bitcoin wallet when you have completed the minimum withdrawal amount.</string>
+
+    <string name="Faq_title_4">minimum to withdraw?</string>
+    <string name="Faq_text_4">The minimum withdrawal amount is 10000 points</string>
+
+    <string name="Faq_title_5">Fraud and manipulation</string>
+    <string name="Faq_text_5">Don\'t worry, we have all kinds of protection against cheaters and manipulators, and anyone who tries or attempts to do so will be banned.</string>
+
+    <string name="Faq_title_6">do you have another question?</string>
+    <string name="Faq_text_6">Do not hesitate to contact us.</string>
+
+    <!-- True/False Math Quiz -->
+    <string name="Question">Question</string>
+    <string name="exit_press">Please click Back again to exit.</string>
+    <string name="false_text">False</string>
+    <string name="true_text">True</string>
+
+    <!-- Games Activity -->
+    <string name="math_quiz_normal">Math Quiz (Normal)</string>
+    <string name="math_quiz_true_false">Math Quiz (True/False)</string>
+
+    <!-- Welcome Activity -->
+    <string name="welcome_to">THM </string>
+
+    <!-- Achievement Activity -->
+    <string name="achievement_1">The Rocket</string>
+    <string name="achievement_1_desc">Answer 10 Questions\n without losing in \n Math Quiz (Normal)</string>
+    <string name="achievement_2">Gold Medal</string>
+    <string name="achievement_2_desc">Answer 30 Questions\n without losing in \n Math Quiz (Normal)</string>
+    <string name="achievement_3">Thunderbolt</string>
+    <string name="achievement_3_desc">Answer 15 Questions\n without losing in \n Math Quiz (True/False)</string>
+
+    <string name="default_notification_channel_id">general</string>
+
+    <string name="loading">Loading..</string>
+
+    <!-- Share App Text -->
+    <string name="Share_Text">Best App to Make Bitcoin From Your Phone Download it Now: \n</string>
+
+
+    <!-- Strings of Admob Ads -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-8141980071063186~4040870131</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-8141980071063186/8916658765</string>
+    <string name="admob_interstitial_id" translatable="false">ca-app-pub-8141980071063186/1792577712</string>
+    <string name="admob_open_ads_id" translatable="false">ca-app-pub-8141980071063186/5839633937</string>
+
+    <!-- Strings of AppLovin Ads -->
+    <string name="appLovin_interstitial_id" translatable="false">5d0bb26ed2ac0848</string>
+    <string name="Empty_text_1" />
+    <string name="email_addrress">Email Address</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="name">Name</string>
+    <string name="_1">1</string>
+    <string name="logo">Logo</string>
+
+
+</resources>

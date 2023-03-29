@@ -1,0 +1,86 @@
+plugins {
+    id 'com.android.application'
+    // Add the Google services Gradle plugin
+    id 'com.google.gms.google-services'
+
+}
+apply plugin: 'applovin-quality-service'
+applovin {
+    apiKey "rqRdwRZecVBkGfkNklR64paBE1wsRtbX0UZbC7Q08GB48oTXGxVnvVTddX0APxfXKn5eWNWJyilMx1kKxKkc2d"
+
+}
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.rih.easymoney"
+        minSdk 21
+        targetSdk 33
+        versionCode 7
+        versionName "3.0.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            multiDexEnabled true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+    // third party dependencies -------------------------------------------------------------------
+    implementation 'com.github.GrenderG:Toasty:1.5.2'
+    implementation 'com.mikhaellopez:circularimageview:4.3.0'
+    implementation 'com.github.bumptech.glide:glide:4.13.1'
+    implementation 'com.balysv:material-ripple:1.0.2'
+
+    implementation 'com.google.code.gson:gson:2.10'
+    implementation 'com.android.volley:volley:1.2.1'
+
+
+    // Import the BoM for the Firebase platform
+    implementation 'com.google.firebase:firebase-analytics:21.2.0'
+    implementation 'com.google.firebase:firebase-messaging:23.1.1'
+    implementation platform('com.google.firebase:firebase-bom:31.2.3')
+
+    // Add the dependency for the Firebase Authentication library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+
+    implementation 'com.google.firebase:firebase-auth'
+
+    // Also add the dependency for the Google Play services library and specify its version
+    implementation 'com.google.android.gms:play-services-auth:20.4.1'
+
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+    implementation 'com.google.android.gms:play-services-ads:21.4.0'
+
+    implementation 'com.unity3d.ads:unity-ads:4.5.0'
+    implementation 'com.applovin:applovin-sdk:11.6.0'
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    //noinspection GradleDependency
+    implementation 'androidx.lifecycle:lifecycle-runtime:2.5.1'
+    //noinspection LifecycleAnnotationProcessorWithJava8
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.5.1'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
+
+apply plugin: 'com.google.gms.google-services'

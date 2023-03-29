@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "57216410484",
+    "project_id": "easymoney-73fcf",
+    "storage_bucket": "easymoney-73fcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57216410484:android:4dcbeb23dd34a46a46c221",
+        "android_client_info": {
+          "package_name": "com.rih.easymoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57216410484-qf23m2seb474hqg222us8qlvpfb97tj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByH3oWLBl5j2mnbWrBRwN22YC79hNhA08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57216410484-qf23m2seb474hqg222us8qlvpfb97tj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

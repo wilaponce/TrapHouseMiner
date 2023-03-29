@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.GamesActivity"
+    android:background="@color/grey_50">
+
+    <include layout="@layout/action_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/actionBarSize"
+        android:layout_marginTop="@dimen/actionBarSize"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginEnd="@dimen/spacing_large"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_mathQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="@string/math_quiz_normal"
+            android:background="@drawable/btn_rounded"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:layout_marginTop="@dimen/spacing_large"/>
+
+        <Button
+            android:id="@+id/btn_TrueFalseQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="@string/math_quiz_true_false"
+            android:background="@drawable/btn_rounded"
+            android:textColor="@color/white"
+            android:textSize="19sp"/>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner_id" />
+
+    <com.applovin.mediation.ads.MaxAdView xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/MaxAdView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        maxads:adUnitId="@string/appLovin_interstitial_id" />
+
+</RelativeLayout>

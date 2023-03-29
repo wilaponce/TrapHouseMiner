@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rih.easymoney"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        tools:node="remove" />
+
+    <application
+        android:name="com.rih.easymoney.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name="com.rih.easymoney.activity.AchievementsActivity"
+            android:exported="false"
+            android:parentActivityName="com.rih.easymoney.MainActivity"/>
+        <activity
+            android:name="com.rih.easymoney.activity.TrueFalseMathQuizActivity"
+            android:exported="false"
+            android:parentActivityName="com.rih.easymoney.MainActivity" />
+        <activity
+            android:name="com.rih.easymoney.activity.GamesActivity"
+            android:exported="false"
+            android:parentActivityName="com.rih.easymoney.MainActivity" />
+        <activity
+            android:name="com.rih.easymoney.activity.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.rih.easymoney.activity.ForgotPasswordActivity"
+            android:exported="false"
+            android:parentActivityName="com.rih.easymoney.activity.LoginActivity" />
+        <activity
+            android:name="com.rih.easymoney.activity.MathQuizActivity"
+            android:exported="true"
+            android:parentActivityName="com.rih.easymoney.MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.rih.easymoney.activity.ProofActivity"
+            android:exported="true"
+            android:parentActivityName="com.rih.easymoney.MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.rih.easymoney.activity.AboutActivity"
+            android:exported="true"
+            android:parentActivityName="com.rih.easymoney.activity.ProfileActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.rih.easymoney.activity.ProfileActivity"
+            android:exported="true"
+            android:parentActivityName="com.rih.easymoney.MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.rih.easymoney.activity.PaymentActivity"
+            android:exported="true"
+            android:parentActivityName="com.rih.easymoney.MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.rih.easymoney.activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rih.easymoney.activity.SignUpActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.rih.easymoney.activity.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.rih.easymoney.activity.HelpActivity"
+            android:exported="true"
+            android:parentActivityName="com.rih.easymoney.MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.rih.easymoney.activity.FeedbackActivity"
+            android:exported="true"
+            android:parentActivityName="com.rih.easymoney.MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.rih.easymoney.MainActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.rih.easymoney.activity.QuizResultActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="hto-qizScPNAApRZCMP1-RHl6xPEXIcDAPC_69RiZptkcJIqgire97OG2oUZ56oFV-Ec7gKgUCP6ViwBQlqZtD" />
+
+        <service
+            android:name="com.rih.easymoney.noti.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_name" />
+    </application>
+
+</manifest>
